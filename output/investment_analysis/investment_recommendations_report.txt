@@ -1,10 +1,10 @@
 Cambridge Red Line Corridor - Investment Analysis Report
 ============================================================
-Generated: September 29, 2025 at 04:41 PM
+Generated: October 20, 2025 at 03:06 PM
 
 Executive Summary
 ----------------------------------------
-📊 CAMBRIDGE CORRIDOR INVESTMENT ANALYSIS - EXECUTIVE SUMMARY
+CAMBRIDGE CORRIDOR INVESTMENT ANALYSIS - EXECUTIVE SUMMARY
 
 Market Analysis Scope:
   • Properties Analyzed: 38,389
@@ -20,7 +20,7 @@ Key Market Insights:
 
 Top Individual Opportunities
 ----------------------------------------
-🏆 TOP 10 INDIVIDUAL INVESTMENT OPPORTUNITIES
+TOP 10 INDIVIDUAL INVESTMENT OPPORTUNITIES
 
 Ranked by Risk-Adjusted Investment Score:
 
@@ -116,7 +116,7 @@ Ranked by Risk-Adjusted Investment Score:
 
 Portfolio Recommendations
 ----------------------------------------
-📋 PORTFOLIO STRATEGY RECOMMENDATIONS
+PORTFOLIO STRATEGY RECOMMENDATIONS
 
 
 Budget Level: $2,000,000
@@ -145,9 +145,9 @@ Budget Level: $10,000,000
 
 Market Timing
 ----------------------------------------
-⏰ MARKET TIMING AND IMPLEMENTATION
+MARKET TIMING AND IMPLEMENTATION
 
-Current Market Conditions (as of September 2025):
+Current Market Conditions (as of October 2025):
   • Cambridge market showing strong fundamentals
   • Red Line accessibility remains key value driver
   • Building age 30-60 years optimal for value-add strategies

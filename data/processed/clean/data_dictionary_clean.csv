@@ -1,29 +1,71 @@
 Column,Description
-PROPERTY_ID,Cambridge Map-Lot identifier from assessor records
-ADDRESS,Property street address in Cambridge
-PROPERTY_TYPE,Cambridge property use classification
-LOT_SIZE,Property lot size in square feet
-LATITUDE,Latitude coordinate extracted from Cambridge GIS
-LONGITUDE,Longitude coordinate extracted from Cambridge GIS
-TOTAL_VALUE,Total assessed property value from Cambridge assessor
-LAND_VALUE,Assessed land value component
-BUILDING_VALUE,Assessed building value component
-GROSS_AREA,Total building gross floor area
-YEAR_BUILT,Year building was constructed
-BUILDING_AGE,Calculated building age (2025 - YEAR_BUILT)
-NEIGHBORHOOD,Cambridge neighborhood identifier
-USE_CODE,Cambridge property use code
-TAX_STATUS,Property tax status
-CONDO_FLAG,Condominium property flag
+pid,Cambridge assessment data: pid
+gisid,Cambridge assessment data: gisid
+bldgnum,Cambridge assessment data: bldgnum
+address,Cambridge assessment data: address
+unit,Cambridge assessment data: unit
+latitude,Cambridge assessment data: latitude
+longitude,Cambridge assessment data: longitude
+stateclasscode,Cambridge assessment data: stateclasscode
+propertyclass,Cambridge assessment data: propertyclass
+zoning,Cambridge assessment data: zoning
+map_lot,Cambridge assessment data: map_lot
+landarea,Cambridge assessment data: landarea
+yearofassessment,Cambridge assessment data: yearofassessment
+taxdistrict,Cambridge assessment data: taxdistrict
+residentialexemption,Cambridge assessment data: residentialexemption
+buildingvalue,Cambridge assessment data: buildingvalue
+landvalue,Cambridge assessment data: landvalue
+assessedvalue,Cambridge assessment data: assessedvalue
+saleprice,Cambridge assessment data: saleprice
+book_page,Cambridge assessment data: book_page
+saledate,Cambridge assessment data: saledate
+previousassessedvalue,Cambridge assessment data: previousassessedvalue
+owner_name,Cambridge assessment data: owner_name
+owner_coownername,Cambridge assessment data: owner_coownername
+owner_address,Cambridge assessment data: owner_address
+owner_address2,Cambridge assessment data: owner_address2
+owner_city,Cambridge assessment data: owner_city
+owner_state,Cambridge assessment data: owner_state
+owner_zip,Cambridge assessment data: owner_zip
+exterior_style,Cambridge assessment data: exterior_style
+exterior_occupancy,Cambridge assessment data: exterior_occupancy
+exterior_numstories,Cambridge assessment data: exterior_numstories
+exterior_walltype,Cambridge assessment data: exterior_walltype
+exterior_wallheight,Cambridge assessment data: exterior_wallheight
+exterior_rooftype,Cambridge assessment data: exterior_rooftype
+exterior_roofmaterial,Cambridge assessment data: exterior_roofmaterial
+exterior_floorlocation,Cambridge assessment data: exterior_floorlocation
+exterior_view,Cambridge assessment data: exterior_view
+interior_livingarea,Cambridge assessment data: interior_livingarea
+interior_numunits,Cambridge assessment data: interior_numunits
+interior_totalrooms,Cambridge assessment data: interior_totalrooms
+interior_bedrooms,Cambridge assessment data: interior_bedrooms
+interior_kitchens,Cambridge assessment data: interior_kitchens
+interior_fullbaths,Cambridge assessment data: interior_fullbaths
+interior_halfbaths,Cambridge assessment data: interior_halfbaths
+interior_fireplaces,Cambridge assessment data: interior_fireplaces
+interior_flooring,Cambridge assessment data: interior_flooring
+interior_layout,Cambridge assessment data: interior_layout
+interior_laundryinunit,Cambridge assessment data: interior_laundryinunit
+systems_heattype,Cambridge assessment data: systems_heattype
+systems_heatfuel,Cambridge assessment data: systems_heatfuel
+systems_centralair,Cambridge assessment data: systems_centralair
+systems_plumbing,Cambridge assessment data: systems_plumbing
+condition_yearbuilt,Cambridge assessment data: condition_yearbuilt
+condition_interiorcondition,Cambridge assessment data: condition_interiorcondition
+condition_overallcondition,Cambridge assessment data: condition_overallcondition
+condition_overallgrade,Cambridge assessment data: condition_overallgrade
+parking_open,Cambridge assessment data: parking_open
+parking_covered,Cambridge assessment data: parking_covered
+parking_garage,Cambridge assessment data: parking_garage
+unfinishedbasementgross,Cambridge assessment data: unfinishedbasementgross
+finishedbasementgross,Cambridge assessment data: finishedbasementgross
 CORRIDOR_SEGMENT,Mass Ave corridor segment (Porter/Harvard/Central)
-SIZE_CATEGORY,Property size category (Small/Medium/Large)
-DISTANCE_TO_RED_LINE,Distance to nearest Red Line station (meters)
-TRANSIT_ACCESSIBILITY,"Transit accessibility score (0-1, higher = better)"
-GENERAL_USE_CATEGORY,General property use category (Residential/Commercial/etc)
-NEIGHBORHOOD_DENSITY,Number of properties in same neighborhood
+STREET_NAME,Cambridge assessment data: STREET_NAME
 GEOCODING_CORRECTED,Boolean flag for coordinate corrections (real data = minimal)
 GEOCODING_METHOD,Method used for coordinate correction
 GEOCODING_CONFIDENCE,Confidence score for coordinates (real data = high)
 ORIGINAL_LAT,Original latitude (real data = same as current)
 ORIGINAL_LON,Original longitude (real data = same as current)
-GEOCODING_NOTE,Notes on coordinate validation
+DISTANCE_MOVED,Cambridge assessment data: DISTANCE_MOVED
