@@ -54,6 +54,9 @@ Thumbs.db
 # output/**/*.html - KEEP (interactive maps)
 # output/**/*.csv - KEEP (analysis results)
 
+# Large HTML files that exceed GitHub limits
+output/investment_analysis/investment_opportunity_dashboard.html
+
 # Development scripts (cleanup phase)
 comprehensive_coordinate_fix.py
 coordinate_analysis_simple.py
