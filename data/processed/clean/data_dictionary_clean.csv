@@ -1,0 +1,29 @@
+Column,Description
+PROPERTY_ID,Cambridge Map-Lot identifier from assessor records
+ADDRESS,Property street address in Cambridge
+PROPERTY_TYPE,Cambridge property use classification
+LOT_SIZE,Property lot size in square feet
+LATITUDE,Latitude coordinate extracted from Cambridge GIS
+LONGITUDE,Longitude coordinate extracted from Cambridge GIS
+TOTAL_VALUE,Total assessed property value from Cambridge assessor
+LAND_VALUE,Assessed land value component
+BUILDING_VALUE,Assessed building value component
+GROSS_AREA,Total building gross floor area
+YEAR_BUILT,Year building was constructed
+BUILDING_AGE,Calculated building age (2025 - YEAR_BUILT)
+NEIGHBORHOOD,Cambridge neighborhood identifier
+USE_CODE,Cambridge property use code
+TAX_STATUS,Property tax status
+CONDO_FLAG,Condominium property flag
+CORRIDOR_SEGMENT,Mass Ave corridor segment (Porter/Harvard/Central)
+SIZE_CATEGORY,Property size category (Small/Medium/Large)
+DISTANCE_TO_RED_LINE,Distance to nearest Red Line station (meters)
+TRANSIT_ACCESSIBILITY,"Transit accessibility score (0-1, higher = better)"
+GENERAL_USE_CATEGORY,General property use category (Residential/Commercial/etc)
+NEIGHBORHOOD_DENSITY,Number of properties in same neighborhood
+GEOCODING_CORRECTED,Boolean flag for coordinate corrections (real data = minimal)
+GEOCODING_METHOD,Method used for coordinate correction
+GEOCODING_CONFIDENCE,Confidence score for coordinates (real data = high)
+ORIGINAL_LAT,Original latitude (real data = same as current)
+ORIGINAL_LON,Original longitude (real data = same as current)
+GEOCODING_NOTE,Notes on coordinate validation

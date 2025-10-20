@@ -1,0 +1,44 @@
+Cambridge Corridor Analysis - Spatial Insights
+==================================================
+
+📍 GEOGRAPHIC DISTRIBUTION
+   • Total mapped properties: 493
+   • Study area: 0.031° lat × 0.041° lon
+   • Property density: 30.8 properties/km²
+
+🚇 RED LINE ACCESSIBILITY
+   • Average distance to Red Line: 980 meters
+   • Median distance to Red Line: 898 meters
+   • Properties within 500m: 94 (19.1%)
+
+🔥 VALUE HOTSPOTS
+   • High-value properties (top 10%): 50
+   • Hotspot threshold: $1,248,688
+   • Primary hotspot location: Porter Square Area
+   • Hotspots avg distance to Red Line: 1085m
+
+🎯 SPATIAL CLUSTERING
+   • Natural clusters identified: 4
+   • Largest cluster: Cluster 3 (195 properties)
+   • Cluster concentration: Properties naturally group by location and value
+
+📏 DISTANCE ZONES
+   • Properties in immediate zone (0-250m): 5.7%
+   • Most common zone: Distant (750m+)
+   • Proximity premium: 13.7% higher values near Red Line
+
+💰 INVESTMENT GEOGRAPHY
+   • High-opportunity properties: 72 (14.6%)
+   • Average investment score: 0.502
+   • Best investment segment: Harvard Square Area
+
+🚉 STATION CATCHMENT ANALYSIS
+   • Central Square: 9 properties, avg value $519,565
+   • Porter Square: 9 properties, avg value $646,480
+   • Harvard Square: 4 properties, avg value $982,976
+
+🎯 SPATIAL INVESTMENT STRATEGY
+   • Priority zone: Harvard Square Area
+   • Target distance: Within 500m of Red Line stations
+   • Focus clusters: Areas with high property density and transit access
+   • Value opportunities: Properties in Porter Square Area segment with below-market pricing

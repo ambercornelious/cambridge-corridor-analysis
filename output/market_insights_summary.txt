@@ -1,0 +1,38 @@
+Cambridge Corridor Analysis - Market Insights
+==================================================
+
+📊 MARKET OVERVIEW
+   • Total corridor market value: $296,037,712
+   • Average property value: $600,482
+   • Average price per sq ft: $166
+   • Commercial properties: 90.5% of market
+
+🚇 CORRIDOR SEGMENT ANALYSIS
+   • Highest value segment: Harvard Square Area ($607,447 avg)
+   • Lowest value segment: Central Square Area ($587,700 avg)
+   • Value premium (high vs low): 3.4%
+
+🚊 TRANSIT ACCESSIBILITY IMPACT
+   • Premium transit properties: 144 (29.2%)
+   • Transit accessibility premium: -3.8%
+   • Average distance to Red Line: 992 meters
+
+🏢 BUILDING AGE ANALYSIS
+   • Average building age: 81.3 years
+   • Buildings over 50 years: 390 (79.1%)
+   • Buildings under 20 years: 18 (3.7%)
+
+💰 INVESTMENT OPPORTUNITIES
+   • High-opportunity properties: 99 (20.1%)
+   • Best investment segment: Harvard Square Area
+   • Average opportunity score: 0.490
+
+🏬 PROPERTY TYPE ANALYSIS
+   • Most common type: Commercial (132 properties)
+   • Highest value type: Office ($683,250 avg)
+
+🎯 KEY RECOMMENDATIONS
+   • Focus on Harvard Square Area for premium investments
+   • Consider redevelopment opportunities in 390 older buildings
+   • Transit proximity drives -3.8% value premium
+   • Office properties show highest average values
