@@ -28,7 +28,7 @@ def download_cambridge_assessments(year=2025, output_dir="data/raw"):
     # This is a template function - actual implementation would depend on
     # Cambridge's current data portal APIs and download methods
     
-    print(f"📥 Downloading Cambridge Assessment Data for {year}")
+    print(f"Downloading Cambridge Assessment Data for {year}")
     
     # Example URL structure (would need to be updated with actual endpoints)
     base_url = "https://www.cambridgema.gov/api/assessments"
@@ -42,7 +42,7 @@ def download_cambridge_assessments(year=2025, output_dir="data/raw"):
     # 2. Downloading Excel/CSV files from their website
     # 3. Processing multiple files and combining them
     
-    print(f"⚠️  Manual download required from:")
+    print(f"Manual download required from:")
     print(f"   Cambridge Assessing: https://www.cambridgema.gov/Departments/assessing")
     print(f"   Save as: {output_path}/cambridge_assessments_{year}.csv")
     
@@ -59,7 +59,7 @@ def download_cambridge_gis_data(output_dir="data/raw"):
     Returns:
         dict: Paths to downloaded GIS files
     """
-    print("🗺️ Downloading Cambridge GIS Data")
+    print("Downloading Cambridge GIS Data")
     
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
@@ -70,7 +70,7 @@ def download_cambridge_gis_data(output_dir="data/raw"):
         'buildings': output_path / 'cambridge_buildings.shp'
     }
     
-    print(f"⚠️  Manual download required from:")
+    print(f"Manual download required from:")
     print(f"   Cambridge GIS Portal: https://www.cambridgema.gov/GIS/gisdatadictionary")
     
     for data_type, filepath in gis_files.items():
@@ -99,7 +99,7 @@ def validate_data_files(data_dir="data/raw"):
     
     validation_results = {}
     
-    print("🔍 Validating Data Files")
+    print("Validating Data Files")
     print("-" * 30)
     
     for filename in required_files:
@@ -107,11 +107,11 @@ def validate_data_files(data_dir="data/raw"):
         exists = filepath.exists()
         validation_results[filename] = exists
         
-        status = "✅" if exists else "❌"
+        status = "Yes" if exists else "No"
         print(f"{status} {filename}")
     
     all_present = all(validation_results.values())
-    print(f"\n📊 Validation Summary: {sum(validation_results.values())}/{len(required_files)} files present")
+    print(f"\nValidation Summary: {sum(validation_results.values())}/{len(required_files)} files present")
     
     return {
         'all_files_present': all_present,
@@ -149,7 +149,7 @@ def create_corridor_bounds():
 
 if __name__ == "__main__":
     # Run data acquisition workflow
-    print("🚀 Cambridge Corridor Analysis - Data Acquisition")
+    print("Cambridge Corridor Analysis - Data Acquisition")
     print("=" * 60)
     
     # Download data files
@@ -160,7 +160,7 @@ if __name__ == "__main__":
     validation = validate_data_files()
     
     if not validation['all_files_present']:
-        print(f"\n⚠️  Missing files: {validation['missing_files']}")
+        print(f"\nMissing files: {validation['missing_files']}")
         print("Please download the required files before proceeding with analysis.")
     else:
-        print("\n✅ All required files are present - ready for analysis!")
+        print("\nAll required files are present - ready for analysis!")
