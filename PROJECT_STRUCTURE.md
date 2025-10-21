@@ -55,20 +55,11 @@ cambridge_corridor_analysis/
 - **Investment Opportunities**: 111+ ranked properties
 - **Market Coverage**: Complete Cambridge corridor analysis
 
-## Key Features for Employers
-✅ **Real Data**: Official Cambridge property assessments (29K+ records)  
-✅ **Complete Pipeline**: End-to-end analysis from raw data to investment recommendations  
-✅ **Professional Code**: Clean, documented, reproducible analysis  
-✅ **Interactive Visualizations**: Folium maps and comprehensive dashboards  
-✅ **Investment Focus**: Practical CRE investment analysis and scoring  
-✅ **Spatial Analysis**: GIS-based market analysis with Red Line accessibility  
-✅ **Production Ready**: Robust data loading, error handling, and scalable architecture
-
-## Removed from Repository
-- Development and testing scripts (comprehensive_coordinate_fix.py, etc.)
-- Large debugging files (geocoding validation maps 30MB+)
-- Internal transition documentation
-- System files (.DS_Store, venv/)
-- Redundant or temporary analysis files
-
-This repository demonstrates professional-level real estate analysis capabilities suitable for CRE investment, data science, and urban planning roles.
+## Key Features 
+**Real Data**: Official Cambridge property assessments (29K+ records)  
+**Complete Pipeline**: End-to-end analysis from raw data to investment recommendations  
+**Professional Code**: Clean, documented, reproducible analysis  
+**Interactive Visualizations**: Folium maps and comprehensive dashboards  
+**Investment Focus**: Practical CRE investment analysis and scoring  
+**Spatial Analysis**: GIS-based market analysis with Red Line accessibility  
+**Production Ready**: Robust data loading, error handling, and scalable architecture
